@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <img src="images/logo.svg" alt="23andfour logo" class="logo">
+
+        <nav>
+                <a href="a" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+                    <li><a href="a">home</a></li>
+                    <li><a href="a">services</a></li>
+                    <li><a href="a">about</a></li>
+                    <li><a href="a">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <img src="images/server.svg" alt="server graphic" class="server">
+
+            <h1>Practicing Front-End for ACM</h1>
+            <p class="subhead">Eto na, malapit na maeedit ko na site natin. UwU</p>
+            <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">            
+        </section>
+    </div>
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/icon-1.svg" alt="calender icon">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem in quia id nihil eum debitis a! Facere at ipsa non. Dignissimos odio magni similique. Commodi tenetur cumque eos dicta quibusdam!</p>
+                </li>
+                <li>
+                    <img src="images/icon-2.svg" alt="calender icon">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem in quia id nihil eum debitis a! Facere at ipsa non. Dignissimos odio magni similique. Commodi tenetur cumque eos dicta quibusdam!</p>
+                </li>
+                <li>
+                    <img src="images/icon-3.svg" alt="calender icon">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem in quia id nihil eum debitis a! Facere at ipsa non. Dignissimos odio magni similique. Commodi tenetur cumque eos dicta quibusdam!</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="grey-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                            <img src="images/user1.png" alt="user picture 1">
+                            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam expedita eligendi optio odit aliquid hic saepe molestias quaerat ex, voluptate provident tenetur nostrum rerum quos dicta officia. Ullam, libero repellat.</blockquote>
+                            <figcaption>John Doe</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                            <img src="images/user2.png" alt="user picture 1">
+                            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam expedita eligendi optio odit aliquid hic saepe molestias quaerat ex, voluptate provident tenetur nostrum rerum quos dicta officia. Ullam, libero repellat.</blockquote>
+                            <figcaption>Doe John</figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="container">
+        <h2>Start your free trial now!</h2>
+        <a href="a" class="cta">Get Started</a>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="a">
+                    <img src="images/logo-white.svg" class="logo" alt="logo">
+                </a>
+                <p class="address">Sampaloc, Manila <br>P. Paredes St </p>
+                <ul class="footer-links">
+                    <li><a href="a">Terms of Service</a></li>
+                    <li><a href="a">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var menu = document.getElementById('menu');
+        var menu = document.getElementById('nav');
+        var menu = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e){
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+        exit.addEventListener('click', function(e){
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>
